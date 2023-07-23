@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:60bd73f38a3b5d975945a19b8a338cfe65dd598423cd784d06b3ffc407c34b11
-size 185
+/* 
+  InfoPlist.strings
+  Czech Nature Sounds
+
+  Created by Jiri Janecek on 19.07.2023.
+  Copyright © 2023 Jiri Janecek. All rights reserved.
+*/
+
+CFBundleDisplayName = "Czech Nature";

@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d139952c2191828b195c2752bcc9681266880cb4bfacaff88c8f7c11c394336c
-size 968
+//
+//  SoundsListDataSource.swift
+//  Czech Nature Sounds
+//
+//  Created by Jiri Janecek on 11.07.2023.
+//  Copyright © 2023 Jiri Janecek. All rights reserved.
+//
+
+import UIKit
+
+final class SoundsListDataSource: NSObject, UITableViewDataSource {
+    let soundModels: [SoundModel]
+    
+    init(soundModels: [SoundModel]) {
+        self.soundModels = soundModels
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.soundModels.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: SoundCell.kCellReuseIdentifier, for: indexPath) as? SoundCell {
+            cell.sound = self.soundModels[indexPath.row]
+            return cell
+        }
+        return UITableViewCell()
+    }
+}

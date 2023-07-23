@@ -1,3 +1,82 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:89eaf01dee2ebbfb261506d12e3c8a5e3221b37718caa25077d00a978bad4355
-size 2588
+/* 
+  Localizable.strings
+  Czech Nature Sounds
+
+  Created by Jiri Janecek on 18.07.2023.
+  Copyright © 2023 Jiri Janecek. All rights reserved.
+*/
+
+// MARK: - Errors
+
+"error_failed_to_decode_sounds" = "Failed to decode sounds";
+"error_cannot_play_track" = "Cannot play selected sound track";
+"error_cannot_play_track_message" = "We apologise, but your chosen sound track cannot be played. We are working on fixing the issue. Thank you for your patience";
+
+// MARK: - Media Control
+
+"stop" = "Stop";
+"play" = "Play";
+"pause" = "Pause";
+"continue" = "Continue";
+
+// MARK: - Other
+
+"selected_time_interval" = "%d minutes";
+"ok" = "OK";
+"track_finished_playing" = "Sound track finished";
+
+// MARK: - Sounds
+
+"home_birds_title" = "Home birds talking";
+"home_birds_subtitle" = "Sounds of home birds in the spring sun";
+
+"rivulet_in_spring_title" = "Rivulet in spring";
+"rivulet_in_spring_subtitle" = "A rivulet in a spring forest";
+
+"evening_birds_title" = "Evening Birds";
+"evening_birds_subtitle" = "Birds voice in the spring forest";
+
+"forest_in_afternoon_title" = "Forest in the Afternoon";
+"forest_in_afternoon_subtitle" = "Birds and water in winter";
+
+"forest_in_afternoon_ii_title" = "Forest in Afternoon II";
+"forest_in_afternoon_ii_subtitle" = "Birds and water in winter";
+
+"middle_rivulet_title" = "Middle rivulet";
+"middle_rivulet_subtitle" = "Fresh sounds of a rivulet";
+
+"rabbits_lunch_title" = "Rabbit's Lunch";
+"rabbits_lunch_subtitle" = "Rabbit bites a fresh apple";
+
+"backyard_title" = "Backyard";
+"backyard_subtitle" = "Chickens, Rabbits and Fresh Wind";
+
+"crowns_of_trees_title" = "In crowns of trees";
+"crowns_of_trees_subtitle" = "The sound of birds in the crowns";
+
+"dry_leaves_title" = "The Sound of Dry Leaves";
+"dry_leaves_subtitle" = "Dry oak leaves in a fresh breeze";
+
+"purring_kitten_title" = "Purring Kitten";
+"purring_kitten_subtitle" = "Kitten purring on pillow";
+
+"mystical_forest_title" = "Mystical forest sounds";
+"mystical_forest_subtitle" = "Birds, trees, twigs and leaves";
+
+"bird_orchestra_title" = "Bird Orchestra";
+"bird_orchestra_subtitle" = "Bird concert in the morning forest";
+
+"glade_title" = "In the glade";
+"glade_subtitle" = "Dry grass, flies, birds and wind";
+
+"rain_title" = "Morning Rain";
+"rain_subtitle" = "The sound of morning rain in the garden";
+
+"bees_title" = "Working Bees";
+"bees_subtitle" = "Sound of working bees";
+
+"night_concert_title" = "Frog Concert";
+"night_concert_subtitle" = "Frog croaking in the night pond";
+
+"insect_nocturne_title" = "Insect Nocturne";
+"insect_nocturne_subtitle" = "Insect Sounds in the Night Meadow";

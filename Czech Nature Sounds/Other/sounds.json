@@ -1,3 +1,104 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:86e05adb4f46ec5fbce23c0a83183eea320bf772e49629ba87a3e21627d30e0d
-size 2620
+[
+  {
+    "title": "home_birds_title",
+    "subtitle": "home_birds_subtitle",
+    "imageName": "bird",
+    "soundFileName": "homeBirdsMelody"
+  },
+  {
+    "title": "rivulet_in_spring_title",
+    "subtitle": "rivulet_in_spring_subtitle",
+    "imageName": "rivulet",
+    "soundFileName": "rivuletInSpringMelody"
+  },
+  {
+    "title": "forest_in_afternoon_title",
+    "subtitle": "forest_in_afternoon_subtitle",
+    "imageName": "forest",
+    "soundFileName": "forestInAfternoonMelody"
+  },
+  {
+    "title": "forest_in_afternoon_ii_title",
+    "subtitle": "forest_in_afternoon_ii_subtitle",
+    "imageName": "forest2",
+    "soundFileName": "forestInAfternoonIIMelody"
+  },
+  {
+    "title": "middle_rivulet_title",
+    "subtitle": "middle_rivulet_subtitle",
+    "imageName": "rivulet2",
+    "soundFileName": "middleRivuletMelody"
+  },
+  {
+    "title": "rabbits_lunch_title",
+    "subtitle": "rabbits_lunch_subtitle",
+    "imageName": "rabbit",
+    "soundFileName": "rabbitsLunchMelody"
+  },
+  {
+    "title": "backyard_title",
+    "subtitle": "backyard_subtitle",
+    "imageName": "backyard",
+    "soundFileName": "backyardMelody"
+  },
+  {
+    "title": "crowns_of_trees_title",
+    "subtitle": "crowns_of_trees_subtitle",
+    "imageName": "tree",
+    "soundFileName": "crownsOfTreesMelody"
+  },
+  {
+    "title": "dry_leaves_title",
+    "subtitle": "dry_leaves_subtitle",
+    "imageName": "dry-leaves",
+    "soundFileName": "dryLeavesMelody"
+  },
+  {
+    "title": "purring_kitten_title",
+    "subtitle": "purring_kitten_subtitle",
+    "imageName": "kitten",
+    "soundFileName": "purringKittenMelody"
+  },
+  {
+    "title": "mystical_forest_title",
+    "subtitle": "mystical_forest_subtitle",
+    "imageName": "forest3",
+    "soundFileName": "mysticalForestMelody"
+  },
+  {
+    "title": "bird_orchestra_title",
+    "subtitle": "bird_orchestra_subtitle",
+    "imageName": "bird3",
+    "soundFileName": "birdOrchestraMelody"
+  },
+  {
+    "title": "glade_title",
+    "subtitle": "glade_subtitle",
+    "imageName": "meadow",
+    "soundFileName": "gladeMelody"
+  },
+  {
+    "title": "rain_title",
+    "subtitle": "rain_subtitle",
+    "imageName": "rain",
+    "soundFileName": "rainMelody"
+  },
+  {
+    "title": "bees_title",
+    "subtitle": "bees_subtitle",
+    "imageName": "bees",
+    "soundFileName": "beesMelody"
+  },
+  {
+    "title": "night_concert_title",
+    "subtitle": "night_concert_subtitle",
+    "imageName": "frog",
+    "soundFileName": "nightConcertMelody"
+  },
+  {
+    "title": "insect_nocturne_title",
+    "subtitle": "insect_nocturne_subtitle",
+    "imageName": "insect",
+    "soundFileName": "insectsMelody"
+  }
+]

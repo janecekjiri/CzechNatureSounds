@@ -1,3 +1,82 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ed104f7a2f3134d71375daa0e12ef3ca6bb8c38c5ed174af0f26cdbe934946eb
-size 2674
+/* 
+  Localizable.strings
+  Czech Nature Sounds
+
+  Created by Jiri Janecek on 18.07.2023.
+  Copyright © 2023 Jiri Janecek. All rights reserved.
+*/
+
+// MARK: - Errors
+
+"error_failed_to_decode_sounds" = "Zvuky se nepodařilo dekódovat";
+"error_cannot_play_track" = "Nelze přehrát zvukovou stopu";
+"error_cannot_play_track_message" = "Omlouváme se, ale Vámi zvolenou zvukovou stopu nelze přehrát. Na nápravě usilovně pracujeme. Děkujeme za pochopení";
+
+// MARK: - Media Control
+
+"stop" = "Stop";
+"play" = "Spustit";
+"pause" = "Pauza";
+"continue" = "Pokračovat";
+
+// MARK: - Other
+
+"selected_time_interval" = "%d minut";
+"ok" = "OK";
+"track_finished_playing" = "Zvuková stopa dohrála";
+
+// MARK: - Sounds
+
+"home_birds_title" = "Domácí ptáčci si povídají";
+"home_birds_subtitle" = "Zvuky domácího ptactva v jarním slunci";
+
+"rivulet_in_spring_title" = "Potůček na jaře";
+"rivulet_in_spring_subtitle" = "Potůček v jarním lese";
+
+"evening_birds_title" = "Večerní ptáčci";
+"evening_birds_subtitle" = "Ptačí hlas v jarním lese";
+
+"forest_in_afternoon_title" = "Les v hodinách odpoledních";
+"forest_in_afternoon_subtitle" = "Ptáčci a voda v zimě";
+
+"forest_in_afternoon_ii_title" = "Les v hodinách odpoledních II";
+"forest_in_afternoon_ii_subtitle" = "Ptáčci a voda v zimě";
+
+"middle_rivulet_title" = "Uprostřed potůčku";
+"middle_rivulet_subtitle" = "Svěží zvuky potůčku";
+
+"rabbits_lunch_title" = "Králíčkův oběd";
+"rabbits_lunch_subtitle" = "Králíček kouše čerstvé jablíčko";
+
+"backyard_title" = "Na dvorku";
+"backyard_subtitle" = "Slepice, králíci a svěží vítr";
+
+"crowns_of_trees_title" = "V korunách stromů";
+"crowns_of_trees_subtitle" = "Zvuk ptáčků v korunách";
+
+"dry_leaves_title" = "Zvuk suchého listí";
+"dry_leaves_subtitle" = "Suché dubové listí v čerstvém vánku";
+
+"purring_kitten_title" = "Vrnící kotě";
+"purring_kitten_subtitle" = "Kotě vrní na polštářku";
+
+"mystical_forest_title" = "Mystické zvuky lesa";
+"mystical_forest_subtitle" = "Ptáčci, stromy, větvičky a listí";
+
+"bird_orchestra_title" = "Ptačí orchestr";
+"bird_orchestra_subtitle" = "Ptačí koncert v ranním lese";
+
+"glade_title" = "Na mýtině";
+"glade_subtitle" = "Suchá tráva, mouchy, ptactvo a vítr";
+
+"rain_title" = "Ranní déšť";
+"rain_subtitle" = "Zvuk ranního deště v zahradě";
+
+"bees_title" = "Pracující včelky";
+"bees_subtitle" = "Zvuk pracujících včelek";
+
+"night_concert_title" = "Žabí koncert";
+"night_concert_subtitle" = "Žábí kvákání v nočním rybníku";
+
+"insect_nocturne_title" = "Hmyzí nokturno";
+"insect_nocturne_subtitle" = "Zvuky hmyzu na noční louce";

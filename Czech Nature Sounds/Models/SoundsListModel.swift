@@ -1,3 +1,44 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c4181a9c7a8f54b8a97b1a6cb681a43fa5e8cc0a5e99f4fbabc3c39b263c8810
-size 1260
+//
+//  SoundsListModel.swift
+//  Czech Nature Sounds
+//
+//  Created by Jiri Janecek on 03.07.2023.
+//  Copyright © 2023 Jiri Janecek. All rights reserved.
+//
+
+import AVFoundation
+import Foundation
+
+final class SoundsListModel: NSObject {
+    private(set) var soundModels: [SoundModel] = []
+    
+    override init() {
+        super.init()
+        
+        self.decodeSoundModels()
+    }
+    
+    func makeAudioPlayer(for soundModel: SoundModel) -> AVAudioPlayer? {
+        guard
+            let soundFileName = soundModel.soundFileName,
+            let url = Bundle.main.url(forResource: soundFileName, withExtension: "mp3"),
+            let audioPlayer = try? AVAudioPlayer(contentsOf: url)
+        else {
+            return nil
+        }
+        
+        return audioPlayer
+    }
+    
+    private func decodeSoundModels() {
+        if let url = Bundle.main.url(forResource: "sounds", withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let sounds = try JSONDecoder().decode([SoundModel].self, from: data)
+                self.soundModels = sounds
+            } catch {
+                assertionFailure(NSLocalizedString("error_failed_to_decode_sounds", comment: ""))
+            }
+        }
+    }
+}
