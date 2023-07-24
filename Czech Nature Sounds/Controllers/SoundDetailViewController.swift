@@ -28,11 +28,6 @@ final class SoundDetailViewController: UIViewController {
         self.selfInit()
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-        UIApplication.shared.endReceivingRemoteControlEvents()
-    }
-    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         self.model.stop(isStoppedByUser: false)
@@ -53,6 +48,7 @@ final class SoundDetailViewController: UIViewController {
         NotificationCenter.default.removeObserver(self, name: .PlayerStateChanged, object: nil)
         NotificationCenter.default.removeObserver(self, name: .SelectedTimeChanged, object: nil)
         NotificationCenter.default.removeObserver(self, name: .RemainingTimeChanged, object: nil)
+        UIApplication.shared.endReceivingRemoteControlEvents()
     }
     
     // MARK: - Methods
