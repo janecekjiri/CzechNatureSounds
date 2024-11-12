@@ -1,3 +1,683 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:aada2e6bf49590a5632a597f99a8dfde1b73f700340f135fdc941e8f926f8344
-size 34174
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1104AFB51F9F28FF00C1A705 /* rivuletInSpringMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1104AFB41F9F28FF00C1A705 /* rivuletInSpringMelody.mp3 */; };
+		111A2BF41FCC736E00632BA8 /* mysticalForestMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 111A2BF31FCC736E00632BA8 /* mysticalForestMelody.mp3 */; };
+		111A2BF61FCC87A800632BA8 /* birdOrchestraMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 111A2BF51FCC87A800632BA8 /* birdOrchestraMelody.mp3 */; };
+		111FA03B2A53F19D000F8D34 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111FA03A2A53F19D000F8D34 /* UIColorExtension.swift */; };
+		111FA03D2A53F6CF000F8D34 /* SoundDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111FA03C2A53F6CF000F8D34 /* SoundDetailViewController.swift */; };
+		1121D4382A5D29F5004492F3 /* SoundsListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1121D4372A5D29F5004492F3 /* SoundsListDataSource.swift */; };
+		1121D43A2A5D2FB1004492F3 /* SoundDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1121D4392A5D2FB1004492F3 /* SoundDetailView.swift */; };
+		1125EB512A6BE76100873D2B /* SoundDetailModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1125EB502A6BE76100873D2B /* SoundDetailModelTests.swift */; };
+		1139B1512A5951C500415BE4 /* SoundDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1139B1502A5951C500415BE4 /* SoundDetailModel.swift */; };
+		113A48691FB072B500931DE0 /* eveningBirdsMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 113A48681FB072B500931DE0 /* eveningBirdsMelody.mp3 */; };
+		113BEF831FCABA4800DE6315 /* rabbitsLunchMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 113BEF821FCABA4800DE6315 /* rabbitsLunchMelody.mp3 */; };
+		113BEF851FCABD6D00DE6315 /* backyardMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 113BEF841FCABD6D00DE6315 /* backyardMelody.mp3 */; };
+		113BEF871FCAC38A00DE6315 /* crownsOfTreesMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 113BEF861FCAC38A00DE6315 /* crownsOfTreesMelody.mp3 */; };
+		113BEF891FCADB6C00DE6315 /* dryLeavesMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 113BEF881FCADB6C00DE6315 /* dryLeavesMelody.mp3 */; };
+		113BEF8B1FCAE4EC00DE6315 /* purringKittenMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 113BEF8A1FCAE4EC00DE6315 /* purringKittenMelody.mp3 */; };
+		1151CFF51FB198770010E21C /* forestInAfternoonMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1151CFF41FB198770010E21C /* forestInAfternoonMelody.mp3 */; };
+		1151CFF71FB19E350010E21C /* forestInAfternoonIIMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1151CFF61FB19E350010E21C /* forestInAfternoonIIMelody.mp3 */; };
+		1158E3A91FCD6F6600474B0B /* gladeMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1158E3A81FCD6F6600474B0B /* gladeMelody.mp3 */; };
+		1158E3AB1FCD71BF00474B0B /* rainMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1158E3AA1FCD71BF00474B0B /* rainMelody.mp3 */; };
+		1158E3AD1FCD7FAB00474B0B /* beesMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1158E3AC1FCD7FAB00474B0B /* beesMelody.mp3 */; };
+		1158E3AF1FCD823A00474B0B /* nightConcertMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1158E3AE1FCD823A00474B0B /* nightConcertMelody.mp3 */; };
+		1158E3B11FCD851B00474B0B /* insectsMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1158E3B01FCD851B00474B0B /* insectsMelody.mp3 */; };
+		117704472A68307300CD87CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 117704492A68307300CD87CF /* Localizable.strings */; };
+		11893DFA2A6844CA007A619F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11893DFC2A6844CA007A619F /* InfoPlist.strings */; };
+		11A241D31F8B62FE00BE3387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A241D21F8B62FE00BE3387 /* AppDelegate.swift */; };
+		11A241DA1F8B62FE00BE3387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A241D91F8B62FE00BE3387 /* Assets.xcassets */; };
+		11A241DD1F8B62FE00BE3387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A241DB1F8B62FE00BE3387 /* LaunchScreen.storyboard */; };
+		11C060D72A527E6A0038F604 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C060D62A527E6A0038F604 /* SceneDelegate.swift */; };
+		11C060DF2A528EFB0038F604 /* SoundsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C060DE2A528EFB0038F604 /* SoundsListViewController.swift */; };
+		11C060E12A5293120038F604 /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C060E02A5293120038F604 /* SoundModel.swift */; };
+		11C060E32A5293ED0038F604 /* sounds.json in Resources */ = {isa = PBXBuildFile; fileRef = 11C060E22A5293ED0038F604 /* sounds.json */; };
+		11C060E52A5295010038F604 /* SoundsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C060E42A5295010038F604 /* SoundsListModel.swift */; };
+		11C060E72A5299420038F604 /* SoundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C060E62A5299420038F604 /* SoundCell.swift */; };
+		11E6F53B1FD3312000A470CD /* homeBirdsMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11E6F5391FD3312000A470CD /* homeBirdsMelody.mp3 */; };
+		11E6F53C1FD3312000A470CD /* middleRivuletMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11E6F53A1FD3312000A470CD /* middleRivuletMelody.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1125EB4B2A6BE6BD00873D2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A241C71F8B62FE00BE3387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A241CE1F8B62FE00BE3387;
+			remoteInfo = "Czech Nature Sounds";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1104AFB41F9F28FF00C1A705 /* rivuletInSpringMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rivuletInSpringMelody.mp3; sourceTree = "<group>"; };
+		111A2BF31FCC736E00632BA8 /* mysticalForestMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mysticalForestMelody.mp3; sourceTree = "<group>"; };
+		111A2BF51FCC87A800632BA8 /* birdOrchestraMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birdOrchestraMelody.mp3; sourceTree = "<group>"; };
+		111FA03A2A53F19D000F8D34 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		111FA03C2A53F6CF000F8D34 /* SoundDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundDetailViewController.swift; sourceTree = "<group>"; };
+		1121D4372A5D29F5004492F3 /* SoundsListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsListDataSource.swift; sourceTree = "<group>"; };
+		1121D4392A5D2FB1004492F3 /* SoundDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundDetailView.swift; sourceTree = "<group>"; };
+		1125EB472A6BE6BD00873D2B /* CzechNatureSoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CzechNatureSoundsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1125EB502A6BE76100873D2B /* SoundDetailModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundDetailModelTests.swift; sourceTree = "<group>"; };
+		1139B1502A5951C500415BE4 /* SoundDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundDetailModel.swift; sourceTree = "<group>"; };
+		113A48681FB072B500931DE0 /* eveningBirdsMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eveningBirdsMelody.mp3; sourceTree = "<group>"; };
+		113BEF821FCABA4800DE6315 /* rabbitsLunchMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rabbitsLunchMelody.mp3; sourceTree = "<group>"; };
+		113BEF841FCABD6D00DE6315 /* backyardMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backyardMelody.mp3; sourceTree = "<group>"; };
+		113BEF861FCAC38A00DE6315 /* crownsOfTreesMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crownsOfTreesMelody.mp3; sourceTree = "<group>"; };
+		113BEF881FCADB6C00DE6315 /* dryLeavesMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dryLeavesMelody.mp3; sourceTree = "<group>"; };
+		113BEF8A1FCAE4EC00DE6315 /* purringKittenMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = purringKittenMelody.mp3; sourceTree = "<group>"; };
+		1151CFF41FB198770010E21C /* forestInAfternoonMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forestInAfternoonMelody.mp3; sourceTree = "<group>"; };
+		1151CFF61FB19E350010E21C /* forestInAfternoonIIMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forestInAfternoonIIMelody.mp3; sourceTree = "<group>"; };
+		1158E3A81FCD6F6600474B0B /* gladeMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gladeMelody.mp3; sourceTree = "<group>"; };
+		1158E3AA1FCD71BF00474B0B /* rainMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rainMelody.mp3; sourceTree = "<group>"; };
+		1158E3AC1FCD7FAB00474B0B /* beesMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beesMelody.mp3; sourceTree = "<group>"; };
+		1158E3AE1FCD823A00474B0B /* nightConcertMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nightConcertMelody.mp3; sourceTree = "<group>"; };
+		1158E3B01FCD851B00474B0B /* insectsMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = insectsMelody.mp3; sourceTree = "<group>"; };
+		117704482A68307300CD87CF /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1177044A2A68307F00CD87CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11893DFB2A6844CA007A619F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11893DFD2A6844CB007A619F /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11A241CF1F8B62FE00BE3387 /* Czech Nature Sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Czech Nature Sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A241D21F8B62FE00BE3387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11A241D91F8B62FE00BE3387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A241DC1F8B62FE00BE3387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11A241DE1F8B62FE00BE3387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C060D62A527E6A0038F604 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11C060DE2A528EFB0038F604 /* SoundsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsListViewController.swift; sourceTree = "<group>"; };
+		11C060E02A5293120038F604 /* SoundModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundModel.swift; sourceTree = "<group>"; };
+		11C060E22A5293ED0038F604 /* sounds.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sounds.json; sourceTree = "<group>"; };
+		11C060E42A5295010038F604 /* SoundsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsListModel.swift; sourceTree = "<group>"; };
+		11C060E62A5299420038F604 /* SoundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCell.swift; sourceTree = "<group>"; };
+		11E6F5391FD3312000A470CD /* homeBirdsMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = homeBirdsMelody.mp3; sourceTree = "<group>"; };
+		11E6F53A1FD3312000A470CD /* middleRivuletMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = middleRivuletMelody.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1125EB442A6BE6BD00873D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A241CC1F8B62FE00BE3387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1121D4362A5D29D6004492F3 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				1121D4372A5D29F5004492F3 /* SoundsListDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		1125EB482A6BE6BD00873D2B /* CzechNatureSoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1125EB502A6BE76100873D2B /* SoundDetailModelTests.swift */,
+			);
+			path = CzechNatureSoundsTests;
+			sourceTree = "<group>";
+		};
+		112A586B1FB06CAA00519191 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				113BEF821FCABA4800DE6315 /* rabbitsLunchMelody.mp3 */,
+				113BEF841FCABD6D00DE6315 /* backyardMelody.mp3 */,
+				113BEF861FCAC38A00DE6315 /* crownsOfTreesMelody.mp3 */,
+				1151CFF41FB198770010E21C /* forestInAfternoonMelody.mp3 */,
+				113A48681FB072B500931DE0 /* eveningBirdsMelody.mp3 */,
+				1151CFF61FB19E350010E21C /* forestInAfternoonIIMelody.mp3 */,
+				113BEF8A1FCAE4EC00DE6315 /* purringKittenMelody.mp3 */,
+				1158E3AC1FCD7FAB00474B0B /* beesMelody.mp3 */,
+				11E6F5391FD3312000A470CD /* homeBirdsMelody.mp3 */,
+				11E6F53A1FD3312000A470CD /* middleRivuletMelody.mp3 */,
+				1158E3AA1FCD71BF00474B0B /* rainMelody.mp3 */,
+				1158E3AE1FCD823A00474B0B /* nightConcertMelody.mp3 */,
+				1158E3B01FCD851B00474B0B /* insectsMelody.mp3 */,
+				1158E3A81FCD6F6600474B0B /* gladeMelody.mp3 */,
+				111A2BF51FCC87A800632BA8 /* birdOrchestraMelody.mp3 */,
+				111A2BF31FCC736E00632BA8 /* mysticalForestMelody.mp3 */,
+				113BEF881FCADB6C00DE6315 /* dryLeavesMelody.mp3 */,
+				1104AFB41F9F28FF00C1A705 /* rivuletInSpringMelody.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		11A241C61F8B62FE00BE3387 = {
+			isa = PBXGroup;
+			children = (
+				11A241D11F8B62FE00BE3387 /* Czech Nature Sounds */,
+				1125EB482A6BE6BD00873D2B /* CzechNatureSoundsTests */,
+				11A241D01F8B62FE00BE3387 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11A241D01F8B62FE00BE3387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A241CF1F8B62FE00BE3387 /* Czech Nature Sounds.app */,
+				1125EB472A6BE6BD00873D2B /* CzechNatureSoundsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A241D11F8B62FE00BE3387 /* Czech Nature Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				11C060DA2A527F8A0038F604 /* Models */,
+				11C060DC2A527FC20038F604 /* Views */,
+				11C060DB2A527FB50038F604 /* Controllers */,
+				1121D4362A5D29D6004492F3 /* DataSources */,
+				11C060D92A527F750038F604 /* Media */,
+				11C060D82A527F690038F604 /* Delegates */,
+				11C060DD2A527FD50038F604 /* Other */,
+			);
+			path = "Czech Nature Sounds";
+			sourceTree = "<group>";
+		};
+		11C060D82A527F690038F604 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				11A241D21F8B62FE00BE3387 /* AppDelegate.swift */,
+				11C060D62A527E6A0038F604 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		11C060D92A527F750038F604 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				112A586B1FB06CAA00519191 /* Sounds */,
+				11A241D91F8B62FE00BE3387 /* Assets.xcassets */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		11C060DA2A527F8A0038F604 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11C060E02A5293120038F604 /* SoundModel.swift */,
+				11C060E42A5295010038F604 /* SoundsListModel.swift */,
+				1139B1502A5951C500415BE4 /* SoundDetailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11C060DB2A527FB50038F604 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11C060DE2A528EFB0038F604 /* SoundsListViewController.swift */,
+				111FA03C2A53F6CF000F8D34 /* SoundDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		11C060DC2A527FC20038F604 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11C060E62A5299420038F604 /* SoundCell.swift */,
+				1121D4392A5D2FB1004492F3 /* SoundDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11C060DD2A527FD50038F604 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				11A241DB1F8B62FE00BE3387 /* LaunchScreen.storyboard */,
+				11A241DE1F8B62FE00BE3387 /* Info.plist */,
+				11C060E22A5293ED0038F604 /* sounds.json */,
+				111FA03A2A53F19D000F8D34 /* UIColorExtension.swift */,
+				117704492A68307300CD87CF /* Localizable.strings */,
+				11893DFC2A6844CA007A619F /* InfoPlist.strings */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1125EB462A6BE6BD00873D2B /* CzechNatureSoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1125EB4F2A6BE6BD00873D2B /* Build configuration list for PBXNativeTarget "CzechNatureSoundsTests" */;
+			buildPhases = (
+				1125EB432A6BE6BD00873D2B /* Sources */,
+				1125EB442A6BE6BD00873D2B /* Frameworks */,
+				1125EB452A6BE6BD00873D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1125EB4C2A6BE6BD00873D2B /* PBXTargetDependency */,
+			);
+			name = CzechNatureSoundsTests;
+			productName = CzechNatureSoundsTests;
+			productReference = 1125EB472A6BE6BD00873D2B /* CzechNatureSoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11A241CE1F8B62FE00BE3387 /* Czech Nature Sounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A241E11F8B62FE00BE3387 /* Build configuration list for PBXNativeTarget "Czech Nature Sounds" */;
+			buildPhases = (
+				11A241CB1F8B62FE00BE3387 /* Sources */,
+				11A241CC1F8B62FE00BE3387 /* Frameworks */,
+				11A241CD1F8B62FE00BE3387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Czech Nature Sounds";
+			productName = "Czech Nature Sounds";
+			productReference = 11A241CF1F8B62FE00BE3387 /* Czech Nature Sounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A241C71F8B62FE00BE3387 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "Jiri Janecek";
+				TargetAttributes = {
+					1125EB462A6BE6BD00873D2B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 11A241CE1F8B62FE00BE3387;
+					};
+					11A241CE1F8B62FE00BE3387 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LSX73KEXNV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 11A241CA1F8B62FE00BE3387 /* Build configuration list for PBXProject "Czech Nature Sounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				cs,
+			);
+			mainGroup = 11A241C61F8B62FE00BE3387;
+			productRefGroup = 11A241D01F8B62FE00BE3387 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A241CE1F8B62FE00BE3387 /* Czech Nature Sounds */,
+				1125EB462A6BE6BD00873D2B /* CzechNatureSoundsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1125EB452A6BE6BD00873D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A241CD1F8B62FE00BE3387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113BEF891FCADB6C00DE6315 /* dryLeavesMelody.mp3 in Resources */,
+				113BEF831FCABA4800DE6315 /* rabbitsLunchMelody.mp3 in Resources */,
+				1158E3AF1FCD823A00474B0B /* nightConcertMelody.mp3 in Resources */,
+				1158E3AB1FCD71BF00474B0B /* rainMelody.mp3 in Resources */,
+				113BEF851FCABD6D00DE6315 /* backyardMelody.mp3 in Resources */,
+				11C060E32A5293ED0038F604 /* sounds.json in Resources */,
+				11A241DD1F8B62FE00BE3387 /* LaunchScreen.storyboard in Resources */,
+				113BEF8B1FCAE4EC00DE6315 /* purringKittenMelody.mp3 in Resources */,
+				11E6F53C1FD3312000A470CD /* middleRivuletMelody.mp3 in Resources */,
+				11893DFA2A6844CA007A619F /* InfoPlist.strings in Resources */,
+				1151CFF71FB19E350010E21C /* forestInAfternoonIIMelody.mp3 in Resources */,
+				111A2BF41FCC736E00632BA8 /* mysticalForestMelody.mp3 in Resources */,
+				111A2BF61FCC87A800632BA8 /* birdOrchestraMelody.mp3 in Resources */,
+				1158E3AD1FCD7FAB00474B0B /* beesMelody.mp3 in Resources */,
+				117704472A68307300CD87CF /* Localizable.strings in Resources */,
+				1104AFB51F9F28FF00C1A705 /* rivuletInSpringMelody.mp3 in Resources */,
+				1158E3A91FCD6F6600474B0B /* gladeMelody.mp3 in Resources */,
+				113A48691FB072B500931DE0 /* eveningBirdsMelody.mp3 in Resources */,
+				113BEF871FCAC38A00DE6315 /* crownsOfTreesMelody.mp3 in Resources */,
+				1158E3B11FCD851B00474B0B /* insectsMelody.mp3 in Resources */,
+				11E6F53B1FD3312000A470CD /* homeBirdsMelody.mp3 in Resources */,
+				11A241DA1F8B62FE00BE3387 /* Assets.xcassets in Resources */,
+				1151CFF51FB198770010E21C /* forestInAfternoonMelody.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1125EB432A6BE6BD00873D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1125EB512A6BE76100873D2B /* SoundDetailModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A241CB1F8B62FE00BE3387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1121D4382A5D29F5004492F3 /* SoundsListDataSource.swift in Sources */,
+				11C060DF2A528EFB0038F604 /* SoundsListViewController.swift in Sources */,
+				1139B1512A5951C500415BE4 /* SoundDetailModel.swift in Sources */,
+				11A241D31F8B62FE00BE3387 /* AppDelegate.swift in Sources */,
+				11C060E72A5299420038F604 /* SoundCell.swift in Sources */,
+				11C060E12A5293120038F604 /* SoundModel.swift in Sources */,
+				1121D43A2A5D2FB1004492F3 /* SoundDetailView.swift in Sources */,
+				111FA03B2A53F19D000F8D34 /* UIColorExtension.swift in Sources */,
+				11C060E52A5295010038F604 /* SoundsListModel.swift in Sources */,
+				11C060D72A527E6A0038F604 /* SceneDelegate.swift in Sources */,
+				111FA03D2A53F6CF000F8D34 /* SoundDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1125EB4C2A6BE6BD00873D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A241CE1F8B62FE00BE3387 /* Czech Nature Sounds */;
+			targetProxy = 1125EB4B2A6BE6BD00873D2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		117704492A68307300CD87CF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				117704482A68307300CD87CF /* cs */,
+				1177044A2A68307F00CD87CF /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		11893DFC2A6844CA007A619F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11893DFB2A6844CA007A619F /* en */,
+				11893DFD2A6844CB007A619F /* cs */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11A241DB1F8B62FE00BE3387 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A241DC1F8B62FE00BE3387 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1125EB4D2A6BE6BD00873D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSX73KEXNV;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weebly.janecek.CzechNatureSoundsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Czech Nature Sounds.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Czech Nature Sounds";
+			};
+			name = Debug;
+		};
+		1125EB4E2A6BE6BD00873D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSX73KEXNV;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weebly.janecek.CzechNatureSoundsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Czech Nature Sounds.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Czech Nature Sounds";
+			};
+			name = Release;
+		};
+		11A241DF1F8B62FE00BE3387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11A241E01F8B62FE00BE3387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A241E21F8B62FE00BE3387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = LSX73KEXNV;
+				INFOPLIST_FILE = "Czech Nature Sounds/Other/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Czech Nature";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weebly.janecek.Czech-Nature-Sounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11A241E31F8B62FE00BE3387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = LSX73KEXNV;
+				INFOPLIST_FILE = "Czech Nature Sounds/Other/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Czech Nature";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weebly.janecek.Czech-Nature-Sounds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1125EB4F2A6BE6BD00873D2B /* Build configuration list for PBXNativeTarget "CzechNatureSoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1125EB4D2A6BE6BD00873D2B /* Debug */,
+				1125EB4E2A6BE6BD00873D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A241CA1F8B62FE00BE3387 /* Build configuration list for PBXProject "Czech Nature Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A241DF1F8B62FE00BE3387 /* Debug */,
+				11A241E01F8B62FE00BE3387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A241E11F8B62FE00BE3387 /* Build configuration list for PBXNativeTarget "Czech Nature Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A241E21F8B62FE00BE3387 /* Debug */,
+				11A241E31F8B62FE00BE3387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A241C71F8B62FE00BE3387 /* Project object */;
+}
